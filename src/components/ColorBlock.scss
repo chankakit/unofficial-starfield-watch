@@ -1,0 +1,27 @@
+.sf-color-block {
+  width: fit-content;
+  height: fit-content;
+  .block-h {
+    width: 8px;
+    height: 62px;
+  }
+  .block-v {
+    width: 62px;
+    height: 8px;
+  }
+  .blue {
+    background-color: #304D79;
+  }
+
+  .yellow {
+    background-color: #D6A44B;
+  }
+
+  .oragne {
+    background-color: #DD6236;
+  }
+
+  .red {
+    background-color: #C62338;
+  }
+}

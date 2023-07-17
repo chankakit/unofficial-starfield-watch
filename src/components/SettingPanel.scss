@@ -1,0 +1,105 @@
+.setting-panel {
+  width: 220px;
+  bottom: 30px;
+  right: -10px;
+  padding: 10px 12px;
+  background-color: rgba($color: white, $alpha: 0.2);
+  color: #BBD0D7;
+  font-family: Ubuntu-R;
+  font-size: 12px;
+  z-index: 19;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.setting-list {
+  gap: 8px;
+}
+.setting-item {
+  gap: 32px;
+  justify-content: space-between;
+  .item-title {
+    opacity: 0.8;
+  }
+}
+.time-selector-panel {
+  bottom: 132px;
+  right: -10px;
+  font-size: 12px;
+  font-family: Ubuntu-R;
+  background-color: rgba($color: white, $alpha: 0.2);
+  color: #BBD0D7;
+  z-index: 19;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  .panel-title {
+    padding: 8px;
+    text-align: center;
+    font-family: Ubuntu-B;
+    background-color: #282D33;
+  }
+  .h-m {
+    padding: 8px 10px 0 10px;
+    .text {
+      flex: 1;
+      text-align: center;
+      font-family: Ubuntu-R;
+      font-size: 10px;
+    }
+  }
+  .list-wrap {
+    justify-content: space-between;
+    gap: 2px;
+    padding: 4px 10px;
+    font-size: 10px;
+    overflow-y: hidden;
+  }
+  .list {
+    width: 100%;
+    max-height: 170px;
+    overflow-y: auto;
+    font-family: sfwf;
+  }
+  .time-selector-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    mix-blend-mode: lighten;
+    &:hover {
+      background-color: rgba($color: #BBD0D7, $alpha: 0.2);
+      cursor: pointer;
+    }
+  }
+  .time-selector-item.activated {
+    background-color: #BBD0D7;
+    color: #282D33;
+  }
+  .action {
+    justify-content: space-between;
+    gap: 4px;
+    padding: 8px 10px;
+    background-color: #282D33;
+    button {
+      flex: 1;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #53606A; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #90A2AF; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #90A2AF; 
+  }
+}

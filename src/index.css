@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'sfwf';
+  src: url('@/assets/fonts/StarfieldWatch_Fake.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu-R';
+  src: url('@/assets/fonts/Ubuntu-R.subset.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu-B';
+  src: url('@/assets/fonts/Ubuntu-B.subset.woff2') format('woff2')
+}
+
+
+
+:root {
+  color: white;
+  background-color: #0B111E;
+  /* background: linear-gradient(360deg, #0D1723 0%, #0B111E 100%); */
+  font-family: Ubuntu-B, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  /* background: linear-gradient(360deg, #0D1723 0%, #0B111E 100%); */
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.global-padding {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+button {
+  background: none;
+	color: #E2FAFF;
+	border: 1px solid #E2FAFF;
+	padding: 3px 6px 3px 6px;
+  font-family: sfwf;
+  font-size: 10px;
+	cursor: pointer;
+	outline: inherit;
+}
+button:active {
+  background-color: #E2FAFF;
+  color: #0B111E;
+}
+button.activated {
+  background-color: #E2FAFF;
+  color: #0B111E;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+

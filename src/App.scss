@@ -1,0 +1,65 @@
+.top-color-block {
+  opacity: 0;
+  @media (max-width: 650px) {
+    opacity: 1;
+  }
+}
+
+.small-title {
+  flex-direction: column;
+  text-align: center;
+  .small-title-text {
+    margin: 14px -4px 0 0;
+    font-family: Ubuntu-R;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 100%;
+    opacity: 0.5;
+  }
+
+}
+.large-title {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  gap: 12px;
+  margin-top: -28px;
+  .invert-text {
+    font-size: 19.6px;
+  }
+  .title-text {
+    font-size: 23.5px;
+  }
+  @media (max-width: 650px) {
+    display: none;
+  }
+}
+
+
+.invert-text {
+  width: fit-content;
+  padding: 0 4px;
+  background-color: white;
+  color: #101927;
+}
+
+.title-text {
+  line-height: 85%;
+}
+
+.contents {
+  height: 100vh;
+  justify-content: space-between;
+}
+.actions {
+  box-sizing: border-box;
+  padding-bottom: 48px;
+}
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #505080;
+  z-index: -1;
+}

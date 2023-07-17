@@ -1,0 +1,36 @@
+{
+  "name": "starfield-watch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.0",
+    "three": "0.138.0",
+    "@react-three/drei": "8.10.7",
+    "@react-three/fiber": "7.0.26",
+    "maath": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/three": "^0.154.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "sass": "^1.63.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  }
+}

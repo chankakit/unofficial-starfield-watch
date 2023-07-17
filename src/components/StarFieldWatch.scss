@@ -1,0 +1,68 @@
+.watch-outside {
+  position: relative;
+  box-sizing: border-box;
+  width: 320px;
+  min-height: 320px;
+  border-radius: 50%;
+  border: 5px solid #4B555A;
+  background-color: #0B0C0D;
+  font-family: sfwf;
+  overflow: hidden;
+}
+.ring-text {
+  position: absolute;
+  font-size: 23px;
+  // z-index: 8;
+}
+.watch-inside {
+  // position: relative;
+  box-sizing: border-box;
+  width: 248px;
+  height: 248px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #0D1112;
+  z-index: 9;
+}
+.pointer {
+  position: absolute;
+}
+.hour-pointer {
+  z-index: 1;
+}
+.minute-pointer {
+  z-index: 2;
+}
+.second-pointer {
+  z-index: 3;
+}
+.scale {
+  position: absolute;
+  margin: 1px 0 0 0;
+}
+.date-time {
+  position: relative;
+  height: 100%;
+  .time-wrap {
+    gap: 3.2px;
+  }
+  .time {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+  .am-pm {
+    box-sizing: border-box;
+    padding: .5px 3px;
+    border: 1px solid white;
+    font-size: 10px;
+    opacity: 0.5;
+  }
+  .am-pm.activate {
+    background-color: white;
+    color: black;
+    opacity: 1;
+  }
+  .date {
+    font-size: 13px;
+  }
+}
