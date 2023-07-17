@@ -8,7 +8,7 @@
   <h3 align="center">Unofficial Starfield Chronomark</h3>
 
   <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://kakit.xyz/unofficial-starfield-watch/">View Demo</a>
   </p>
 </div>
 
