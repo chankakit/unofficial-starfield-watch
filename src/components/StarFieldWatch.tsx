@@ -17,7 +17,7 @@ const monthFormatter = (month: number): string => {
     'July', 'August', 'September',
     'October', 'November', 'December'
   ]
-  return monthText[month-1]
+  return monthText[month]
 }
 
 
